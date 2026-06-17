@@ -1,0 +1,296 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./storelocator.css">
+    <link rel="stylesheet" href="./footer.css">
+     <link rel="stylesheet" href="./navbar.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+       <nav class="w-100">
+        <div class="d-flex justify-content-around">
+            <div>
+                <a href="./index.html">
+                <img src="./assets/logo.png.png" alt="" width="60px" height="60px">
+                </a>
+            </div>
+            <div class="d-flex">
+                <p class="OrangeText">DELIVERY
+                <a href="#" class="customNavItem">DINE-IN/TAKE-AWAY</a></p>
+                <div class="input-group mb-3">
+                    <input type="text" class="form-control" placeholder="No Stores Near By" aria-label="LocationSearch" aria-describedby="basic-addon2">
+               
+                </div>
+            </div>
+            <div>
+                <a href="./storeLocator.html" class="customNavItem" >Near By Store</a>
+                <a href="./offers.html" class="customNavItem">King Deals</a>
+                <button class="customNavItem btnNoBorder"data-bs-toggle="modal" data-bs-target="#exampleModal">Login</button>
+                <button class="customNavItem btnNoBorder" onclick="OpenMessageForCart()">Cart</button>
+            </div>
+            <div>
+                <a href="#"><i class="fa-solid fa-magnifying-glass"></i></a>
+            </div>
+
+
+        </div>
+
+
+    </nav>
+
+    <div class="customLocatorSearch">
+        <div class="container W-50">
+            <div class="input-group mb-3">
+                <input type="text" class="form-control" placeholder="Search For Your Location" aria-label="LocationSearch" aria-describedby="basic-addon2">
+                <span class="input-group-text" id="basic-addon2"><i class="fa-solid fa-location-crosshairs"></i>Detect Your Location</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- storeLocation -->
+
+
+    <section>
+        <div class="container bg-white p-3 rounded mt-2">
+            <div class="d-flex justify-content-between">
+                <div class="leftAddress">
+                    <h2>CRYSTAL MALL,RAJKOT</h2>
+                    <p class="lead">Store Time (10:00AM To 06:00PM)</p>
+                    <p><address>
+                        Crystal Mall,Ground Floor,2/A/1,Opposite Rani Tower,Kalawad Road,Rajkot 
+                    </address></p>
+                    <p><a href="#" class="customIconOpenNow">OPEN NOW</a></p>
+                    <p>8033.73 km away,16 days 17hrs 41mins</p>
+                </div>
+                <div class="rightIcon">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+            </div>
+                <hr/>
+                <div class="DineAndTake d-flex justify-content-around">
+                    <div class="">
+                        <a href="">Dine In</a>
+                    </div>
+                    <div>
+                        <a href="">Take Away</a>
+                    </div>
+                </div>
+        </div>
+          <div class="container bg-white p-3 rounded mt-2">
+            <div class="d-flex justify-content-between">
+                <div class="leftAddress">
+                    <h2>CRYSTAL MALL,RAJKOT</h2>
+                    <p class="lead">Store Time (10:00AM To 06:00PM)</p>
+                    <p><address>
+                        Crystal Mall,Ground Floor,2/A/1,Opposite Rani Tower,Kalawad Road,Rajkot 
+                    </address></p>
+                    <p><a href="#" class="customIconOpenNow">OPEN NOW</a></p>
+                    <p>8033.73 km away,16 days 17hrs 41mins</p>
+                </div>
+                <div class="rightIcon">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+            </div>
+                <hr/>
+                <div class="DineAndTake d-flex justify-content-around">
+                    <div class="">
+                        <a href="">Dine In</a>
+                    </div>
+                    <div>
+                        <a href="">Take Away</a>
+                    </div>
+                </div>
+        </div>
+          <div class="container bg-white p-3 rounded mt-2">
+            <div class="d-flex justify-content-between">
+                <div class="leftAddress">
+                    <h2>CRYSTAL MALL,RAJKOT</h2>
+                    <p class="lead">Store Time (10:00AM To 06:00PM)</p>
+                    <p><address>
+                        Crystal Mall,Ground Floor,2/A/1,Opposite Rani Tower,Kalawad Road,Rajkot 
+                    </address></p>
+                    <p><a href="#" class="customIconOpenNow">OPEN NOW</a></p>
+                    <p>8033.73 km away,16 days 17hrs 41mins</p>
+                </div>
+                <div class="rightIcon">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+            </div>
+                <hr/>
+                <div class="DineAndTake d-flex justify-content-around">
+                    <div class="">
+                        <a href="">Dine In</a>
+                    </div>
+                    <div>
+                        <a href="">Take Away</a>
+                    </div>
+                </div>
+        </div>
+          <div class="container bg-white p-3 rounded mt-2">
+            <div class="d-flex justify-content-between">
+                <div class="leftAddress">
+                    <h2>CRYSTAL MALL,RAJKOT</h2>
+                    <p class="lead">Store Time (10:00AM To 06:00PM)</p>
+                    <p><address>
+                        Crystal Mall,Ground Floor,2/A/1,Opposite Rani Tower,Kalawad Road,Rajkot 
+                    </address></p>
+                    <p><a href="#" class="customIconOpenNow">OPEN NOW</a></p>
+                    <p>8033.73 km away,16 days 17hrs 41mins</p>
+                </div>
+                <div class="rightIcon">
+                    <div>
+                        <i class="fa-solid fa-phone"></i>
+                    </div>
+                    <div>
+                        <i class="fa-solid fa-location-dot"></i>
+                    </div>
+                </div>
+            </div>
+                <hr/>
+                <div class="DineAndTake d-flex justify-content-around">
+                    <div class="">
+                        <a href="">Dine In</a>
+                    </div>
+                    <div>
+                        <a href="">Take Away</a>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+      <footer>
+        <div class="d-flex justify-content-around p-4">
+          
+
+
+            <div>
+                <h4>BK'INFO</h4>
+                <a href="" class="footrLinks">About Us</a><br>
+                <a href="" class="footrLinks">Fresh Taste</a><br>
+                <a href="" class="footrLinks">Investor Relations</a><br>
+                <a href="" class="footrLinks">Fssai</a><br>
+            </div>
+
+
+            <div>
+                <h4>CONTACT</h4>
+                <a href="" class="footrLinks">FAQ's & Support</a><br>
+                <h6>Write to us:</h6>
+                <a href="" class="footrLinks">Careers</a><br>
+                <a href="" class="footrLinks">Customer Care</a><br>
+                <a href="" class="footrLinks">Supply Chain Queries</a><br>
+                <a href="" class="footrLinks">Investor Relations</a><br>
+                <a href="" class="footrLinks">Franchising</a><br>
+            </div>
+
+
+            <div>
+                <h4>BK'CARES</h4>
+                <a href="" class="footrLinks">Nutrition Information</a><br>
+                <a href="" class="footrLinks">Creating Brighter Futures</a><br>
+                <a href="" class="footrLinks">Trust & Taste</a><br>
+                <a href="" class="footrLinks">COVID-19 Safety</a><br>
+
+            </div>
+
+
+              <div>
+                <h4>LEGAL</h4>
+                   <a href="" class="footrLinks">Terms & Condition</a><br>
+                    <a href="" class="footrLinks">Privacy Policy</a><br>
+                    <a href="" class="footrLinks">Promotional T & C</a><br>
+                    <a href="" class="footrLinks">Compliance</a><br>
+
+            </div>
+
+
+            <div>
+                <h4>Download Our App</h4>
+                <img src="./assets/applestore.png" alt="">
+                <img src="./assets/googleplay.png" alt="">
+            </div>
+
+        </div>
+        <hr>
+        <div class="d-flex justify-content-around align-items-center">
+            <img src="./assets/logo.png.png" alt="" class="img-fluid" width="90" height="90">
+            <p>Lorem ipsum dolor sit amet consectetur.</p>
+            <div class="Iconsfree">
+                <a href=""><i class="fa-brands fa-square-facebook"></i></i></a>
+                <a href=""><i class="fa-brands fa-square-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-square-twitter"></i></a>
+                <a href=""><i class="fa-brands fa-square-youtube"></i></a>
+            </div>
+        </div>
+    </footer>
+    <div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog  modal-dialog-centered">
+    <div class="modal-content" style="background-color: antiquewhite;">
+      <div class="modal-header">
+        <!-- <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1> -->
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+
+
+      <div class="modal-body">
+        <div class="container text-center">
+            <img src="./assets/logo.png.png" alt="">
+             <h3>Enter your mobile number to proceed</h3>
+
+    <div class="input-box">
+        <span class="country-code">+91</span>
+        <input type="text" placeholder="Enter 10 digit mobile number">
+    </div>
+
+    <button class="phone-btn">
+        ENTER 10 DIGIT PHONE NUMBER
+    </button>
+
+    <div class="divider">
+        <span></span>
+        <p>or</p>
+        <span></span>
+    </div>
+
+    <h4>Login Using</h4>
+
+    <button class="google-btn">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google">
+        Sign in with Google
+    </button>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+ <script src="./script.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>

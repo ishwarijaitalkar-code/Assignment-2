@@ -1,0 +1,60 @@
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.offersSec{
+    height: 200px;
+    background-image:linear-gradient( to right,white, rgb(228, 47, 47))
+}
+.BKLoyaltyCrown{
+    background-color: brown;
+}
+.customYellowHeading{
+    background-color: rgb(197, 197, 107);
+}
+.customCoinColletor{
+    height: 200px;
+    background-color: rgb(132, 132, 217);
+}
+.customPlayAndWin{
+    height: 200px;
+    background-color: rgb(210, 17, 220);
+}
+.customRedeem{
+    height: 200px;
+    background-color: brown;
+}
+.customBTN{
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 20px;
+   
+}
+.duffer{
+    color: brown;
+    text-decoration: none;
+    padding: 30px;
+}
+.dealslabels{
+    padding: 20px;
+
+}
+.offernoavailable{
+    text-align: center;
+}
+#offers{
+    padding: 50px;
+}
+.freelarge{
+    padding: 30px;
+}
+.paripari{
+    padding: auto;
+}
+.bkcrownsimg{
+    padding: 50px;
+}
+.imgbkimg{
+    padding: auto;
+}
